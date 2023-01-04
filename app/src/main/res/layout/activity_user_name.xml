@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.UserNameActivity"
+        android:background="@color/purple"
+        android:padding="32dp">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_beginning"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:gravity="center" />
+
+
+    <EditText
+            android:id="@+id/edit_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_text_user_name"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:inputType="textPersonName"
+            android:gravity="center"
+            android:layout_centerInParent="true" />
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true"
+            android:elevation="8dp"
+            android:background="@color/black"
+            android:layout_below="@+id/edit_user_name" />
+
+    <Button
+            android:id="@+id/button_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_save"
+            android:textSize="20sp"
+            android:backgroundTint="@color/light_purple"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center" />
+
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray">
+
+    <LinearLayout
+            android:id="@+id/linear_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/purple"
+            android:padding="20dp">
+
+        <ImageView
+                android:id="@+id/image_all"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_all_inclusive"
+                android:layout_weight="1" />
+
+        <ImageView
+                android:id="@+id/image_sad"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_mood_bad"
+                android:layout_weight="1" />
+
+        <ImageView
+                android:id="@+id/image_rainy"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_thunderstorm"
+                android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/text_hello_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_view_hello"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/linear_menu"
+            android:layout_marginTop="24dp" />
+
+
+    <TextView
+            android:id="@+id/text_view_demotivation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_view_demotivation"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_centerInParent="true" />
+
+    <View
+            android:layout_width="128dp"
+            android:layout_height="4dp"
+            android:layout_centerHorizontal="true"
+            android:elevation="8dp"
+            android:background="@color/purple"
+            android:layout_below="@+id/text_view_demotivation" />
+
+    <Button
+            android:id="@+id/button_new_phrase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_new_phrase"
+            android:textSize="20sp"
+            android:backgroundTint="@color/dark_purple"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="32dp"
+            android:gravity="center" />
+
+
+</RelativeLayout>
+

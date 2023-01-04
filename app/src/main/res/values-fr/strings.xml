@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">démotivationnel</string>
+
+    //MainActivity
+
+    <string name="text_view_hello">Bonjour,</string>
+    <string name="text_view_demotivation">phrases</string>
+    <string name="button_new_phrase">Nouvelle phrase</string>
+
+
+    //UserNameActivity
+
+    <string name="text_beginning">Commencer?</string>
+    <string name="edit_text_user_name">Quel est votre nom? </string>
+    <string name="button_save">Sauver</string>
+
+    <string name="warning_toast">Ops, entrez votre nom!</string>
+
+
+
+    <string name="menu_phrases_all">Toutes les phrases</string>
+    <string name="menu_phrases_motivation">phrases démotivantes</string>
+    <string name="menu_phrases_morning">Phrases pour le pluie</string>
+
+</resources>

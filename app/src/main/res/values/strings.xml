@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Demotivational</string>
+
+    //MainActivity
+
+    <string name="text_view_hello">Hello,</string>
+    <string name="text_view_demotivation">phrases</string>
+    <string name="button_new_phrase">New phrase</string>
+
+    //UserNameActivity
+
+    <string name="text_beginning">Let\'s begin?</string>
+    <string name="edit_text_user_name">What\'s your name? </string>
+    <string name="button_save">Save</string>
+    <string name="warning_toast">
+        Ops, i need you to give me a name!</string>
+
+
+    <string name="menu_phrases_all">All the phrases</string>
+    <string name="menu_phrases_motivation">Demotivation phrases</string>
+    <string name="menu_phrases_morning">Rainy day phrases</string>
+
+</resources>
